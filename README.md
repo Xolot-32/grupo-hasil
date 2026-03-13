@@ -1,16 +1,51 @@
-# React + Vite
+# Grupo Hasil — Portafolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio profesional de **Grupo Hasil**, empresa especializada en fabricación de anuncios luminosos, rotulación y soluciones de imagen corporativa.
 
-Currently, two official plugins are available:
+🌐 **En línea:** [grupo-hasil.vercel.app](https://grupo-hasil.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Servicios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fabricación de Anuncios Luminosos
+- Cajas de Luz
+- Impresión de Backlight
+- Rotulación de Flotillas
+- Anuncios de Acrílico en 3D
+- Diseño de Logos
+- Foto Montaje
+- Cambio de Imagen
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Stack
+
+- **React 18** + **Vite**
+- **Tailwind CSS v3**
+- **Framer Motion** — animaciones y transiciones
+- **Vercel** — hosting
+
+## Características
+
+- 34 imágenes clasificadas en 8 categorías
+- Filtros animados con sliding pill (Framer Motion layoutId)
+- Grid masonry responsive (2 → 3 → 4 columnas)
+- Reveal de imágenes en blanco/negro → color al hacer scroll
+- Lightbox con navegación swipe en móvil
+- Botón de contacto flotante con WhatsApp directo
+- Mobile-first
+
+## Desarrollo local
+
+```bash
+npm install
+npm run dev
+```
+
+## Deploy
+
+```bash
+npm run build
+vercel --prod
+```
