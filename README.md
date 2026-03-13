@@ -36,7 +36,7 @@ Portafolio profesional de **Grupo Hasil**, empresa especializada en fabricación
 - Botón de contacto flotante con WhatsApp directo
 - Mobile-first
 
-##Nuevas imagenes
+## Nuevas imagenes
  El flujo es sencillo. Todo está centralizado en un solo archivo:
 
   src/data/projects.js                                                                                                  
